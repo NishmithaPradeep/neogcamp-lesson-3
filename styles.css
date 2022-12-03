@@ -4,6 +4,7 @@
 {
     --primary-color: #4ade80;
     --dark-grey: #475569;
+    --ow: #e2e8f0;
 }
 
 body{
@@ -99,6 +100,38 @@ hr
 
 .hero .hero-heading
 {
+    padding-top: 1rem;
     color: var(--dark-grey);
 }
 
+.section
+{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow
+{
+    background-color: var(--ow);
+}
+
+.footer
+{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link
+{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
